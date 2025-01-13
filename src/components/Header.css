@@ -1,0 +1,39 @@
+.Header{ 
+    width: 100%; 
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px; 
+}
+
+
+.Header-text{
+    padding: 30px 40px 30px 40px;
+}
+
+.descricao{
+    padding-top: 5px;
+    font-size: 14px; 
+    line-height: 2.2;
+}
+ 
+
+ 
+  .Header-image-container { 
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+   
+     
+  .doce-image-container{
+    height: 0px;
+  }
+  .doce-image {
+    position: relative;
+    top:-96px;
+    left: 95px;
+    width: 170px;   
+    z-index: 2;  
+  }
+   

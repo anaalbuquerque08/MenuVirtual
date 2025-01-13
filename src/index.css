@@ -1,0 +1,34 @@
+:root {
+  --fundo: #F3F3F3; /* Cor do fundo do Cardápio */
+  --branco: #ffff;  /*Cor branca total*/
+  --preto: #000000; /* Cor preta total */
+  --cinza-info: #959595; /* Cor cinza para as informações */
+
+  --fundo-verde-doce: #2ADBB2; /* Cor de fundo da aba do doce*/
+  --botao-rosa-doce: #BE26A2; /* Cor do botão da aba do doce*/  
+  --botao-rosa-doce-hover: #971c81; /* hover*/  
+
+  --fundo-amarelo-pizza: #F0991F; /* Cor de fundo da aba da pizza*/
+  --botao-vermelho-pizza: #BE3D26;/* Cor do botão da aba da pizza*/  
+  --botao-vermelho-pizza-hover: #972f1d;/* hover*/  
+
+  --fundo-roxo-salgado: #7F2ADB; /* Cor de fundo da aba do salgado*/
+  --botao-verde-salgado: #ACBE26;/* Cor do botão da aba do salgado*/  
+  --botao-verde-salgado-hover: #86941d;/* hover*/  
+
+}
+
+@font-face {
+  font-family: 'TW Cen MT';
+  src: url('/fonts/TW-Cen-MT.woff2') format('woff2'),
+       url('/fonts/TW-Cen-MT.woff') format('woff'),
+       url('/fonts/TW-Cen-MT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'TW Cen MT', sans-serif;
+}
+
+  

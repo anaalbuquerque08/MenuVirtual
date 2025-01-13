@@ -1,0 +1,170 @@
+.bottom-menu { 
+  bottom: 0;
+  left: 0;
+  width: 100%;  
+  display: flex;
+  justify-content: space-around;
+  position: fixed; 
+  background-color: var(--fundo);
+  padding: 8px 0;  
+  z-index: 999;  
+  align-items: flex-end;
+  height: 70px;
+} 
+
+.section {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.section-menu{
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;   
+}
+
+.label {
+  font-size: 14px;   
+  color: var(--preto);
+  font-weight: 600; 
+  transition: color 0.3s ease;
+}
+
+.icones {
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  margin-bottom: 4px; 
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.icones-menu { 
+  color: var(--branco);  
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  margin-bottom: 2px;  
+  background-color: var(--fundo-verde-doce) ;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative; /* Necessário para contexto de empilhamento */
+  z-index: 3; /* Fica acima do quadrado */
+}
+
+.circulo{
+  background-color: var(--fundo);
+  padding: 8px;
+  border-radius: 50%;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3); 
+  position: relative; 
+  z-index: 1;
+}
+ 
+ .quadrado{
+  background-color: var(--fundo);
+  display: flex;
+  position: absolute;
+  left: -20px;
+  bottom: -4px;
+  height: 40px;
+  width: 100px;
+  z-index: 2;
+ }
+ 
+
+.label-menu { 
+  align-self: center;
+  font-size: 14px;   
+  font-weight: 600;   
+  padding-top: 6px;
+  padding-bottom: 5px; 
+  text-align: center;
+  color: var(--fundo-verde-doce) ;
+}
+
+.bottom-menu a { 
+  text-decoration: none; 
+}
+
+/* funcionou */ 
+.menu-active .icones-menu {
+  background-color: var(--preto) !important;  
+}
+
+/* funcionou */ 
+.menu-active .label-menu {
+  color: var(--preto) !important;  
+}
+/* Para as seções de pizza, doces, etc. */
+.pizzas-active .icones-menu {
+  background-color: var(--fundo-amarelo-pizza) !important;
+}
+
+.pizzas-active .label-menu {
+  color: var(--fundo-amarelo-pizza) !important;
+}
+
+.doces-active .icones-menu {
+  background-color: var(--fundo-verde-doce) !important;
+}
+
+.doces-active .label-menu {
+  color: var(--fundo-verde-doce) !important;
+}
+
+.salgados-active .icones-menu {
+  background-color: var(--fundo-roxo-salgado) !important;
+}
+
+.salgados-active .label-menu {
+  color: var(--fundo-roxo-salgado) !important;
+}
+
+
+/* CORES DOS ICONES funciona perfeitamente n mexer */
+.pizzas-active .icones  {
+  color: var(--fundo-amarelo-pizza); 
+}
+
+.doces-active .icones {
+  color: var( --fundo-verde-doce); 
+}
+
+.menu-active .icones {
+  color: var(--fundo-amarelo-pizza); 
+}
+
+.salgados-active .icones {
+  color: var(--fundo-roxo-salgado); 
+}
+
+.infos-active .icones {
+  color: var(--cinza-info); 
+}
+
+/* CORES DOS LABELS funciona perfeitamente n mexer */
+.pizzas-active .label {
+  color: var(--fundo-amarelo-pizza); 
+}
+
+.doces-active .label {
+  color: var( --fundo-verde-doce); 
+}
+
+.menu-active .label{
+  color: var(--fundo-amarelo-pizza); 
+}
+
+.salgados-active .label {
+  color: var(--fundo-roxo-salgado); 
+}
+
+.infos-active .label {
+  color: var(--cinza-info); 
+}
+ 
