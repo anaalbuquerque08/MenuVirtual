@@ -9,7 +9,8 @@
 
 
 .Header-text{
-    padding: 30px 40px 30px 40px;
+    padding: 30px 40px 30px 40px; 
+    
 }
 
 .descricao{
@@ -26,14 +27,11 @@
   }
    
      
-  .doce-image-container{
+  .header-image-container{
     height: 0px;
   }
-  .doce-image {
-    position: relative;
-    top:-96px;
-    left: 95px;
-    width: 170px;   
+  .header-image {
+    position: relative;    
     z-index: 2;  
   }
    

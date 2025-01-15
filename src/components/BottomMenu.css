@@ -10,6 +10,7 @@
   z-index: 999;  
   align-items: flex-end;
   height: 70px;
+  
 } 
 
 .section {
@@ -52,8 +53,8 @@
   margin-bottom: 2px;  
   background-color: var(--fundo-verde-doce) ;
   transition: background-color 0.3s ease, color 0.3s ease;
-  position: relative; /* Necessário para contexto de empilhamento */
-  z-index: 3; /* Fica acima do quadrado */
+  position: relative; 
+  z-index: 3;  
 }
 
 .circulo{

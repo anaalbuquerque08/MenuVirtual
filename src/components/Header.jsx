@@ -1,8 +1,8 @@
 import React from 'react';
-import './Header.css'; 
-import Button from '../components/Button'; 
+import './Header.css';
+import Button from '../components/Button';
 
-function Header({ title, description, imgHeader}) {
+function Header({ title, description, imgHeader, imgHeaderStyles, buttonColors }) {
   return (
     <div className="Header">
       <div className="Header-image-container">
@@ -12,16 +12,27 @@ function Header({ title, description, imgHeader}) {
           className="Header-logo"
         />
       </div>
+
+
+
+      
       <div className="Header-text">
         <h1>{title}</h1>
         <p className="descricao">{description}</p>
       </div>
-      <div className="doce-image-container">
-      <img src={imgHeader} alt="Header decoration" className="doce-image" />
+      <div className="header-image-container">
+        <img
+          src={imgHeader}
+          alt="Header decoration"
+          className="header-image"
+          style={imgHeaderStyles}  
+        />
       </div>
-       <Button />
+      <Button
+        backgroundColor={buttonColors.buttonBackground}
+        hoverColor={buttonColors.buttonHover}  
+      />
     </div>
-
   );
 }
 
