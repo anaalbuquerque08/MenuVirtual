@@ -27,16 +27,21 @@ function BottomMenu() {
       </section>
 
       
-    <section className={`section-menu ${location.pathname === "/" ? "menu-active" : ""}`}>
-        <Link to="/">
-          <div className='circulo'> 
-            <div className='quadrado'></div>
-          <div className="icones-menu"><TiHome size={30} /></div>
-          </div>
+      <section className={`section-menu ${location.pathname === "/" ? "menu-active" : 
+    location.pathname === "/pizzas" ? "menu-pizza" : 
+    location.pathname === "/doces" ? "menu-doce" : 
+    location.pathname === "/salgados" ? "menu-salgado" : 
+    "menu-inactive"}`}>
 
-          <p className="label-menu">menu</p>
-        </Link>  
-      </section>
+  <Link to="/">
+    <div className='circulo'>
+      <div className='quadrado'></div>
+      <div className="icones-menu"><TiHome size={30} /></div>
+    </div>
+    <p className="label-menu">menu</p>
+  </Link>  
+</section>
+
       
   
 

@@ -6,7 +6,7 @@ import Doces from './pages/Doces';
 import Salgados from './pages/Salgados';
 import Pizzas from './pages/Pizzas';
 import Infos from './pages/Infos';
-import BottomMenu from './Components/BottomMenu';
+import BottomMenu from './components/BottomMenu';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Route path="/pizzas" element={<Pizzas />} />
           <Route path="/infos" element={<Infos />} />
         </Routes>
-         <BottomMenu />
+        <BottomMenu />
       </div>
      
     </Router>

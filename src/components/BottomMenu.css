@@ -49,8 +49,7 @@
   display: flex;  
   justify-content: center;  
   align-items: center;  
-  margin-bottom: 2px;  
-  background-color: var(--fundo-verde-doce) ;
+  margin-bottom: 2px;   
   transition: background-color 0.3s ease, color 0.3s ease;
   position: relative;  
   z-index: 3;  
@@ -83,46 +82,52 @@
   font-weight: 600;   
   padding-top: 6px;
   padding-bottom: 5px; 
-  text-align: center;
-  color: var(--fundo-verde-doce) ;
+  text-align: center; 
 }
 
 .bottom-menu a { 
   text-decoration: none; 
-}
-
-/* funcionou */ 
+} 
 .menu-active .icones-menu {
-  background-color: var(--preto) !important;  
+  background-color: var(--preto) !important;
+  color: var(--branco) !important;   
 }
 
-/* funcionou */ 
 .menu-active .label-menu {
-  color: var(--preto) !important;  
+  color: var(--preto) !important;
 }
-/* Para as seções de pizza, doces, etc. */
-.pizzas-active .icones-menu {
-  background-color: var(--fundo-amarelo-pizza) !important;
+ 
+.menu-pizza .icones-menu {
+  background-color: var(--fundo-amarelo-pizza) !important; 
 }
 
-.pizzas-active .label-menu {
+.menu-pizza .label-menu {
   color: var(--fundo-amarelo-pizza) !important;
 }
-
-.doces-active .icones-menu {
-  background-color: var(--fundo-verde-doce) !important;
+ 
+.menu-doce .icones-menu {
+  background-color: var(--fundo-verde-doce) !important; 
 }
 
-.doces-active .label-menu {
+.menu-doce .label-menu {
   color: var(--fundo-verde-doce) !important;
 }
-
-.salgados-active .icones-menu {
-  background-color: var(--fundo-roxo-salgado) !important;
+ 
+.menu-salgado .icones-menu {
+  background-color: var(--fundo-roxo-salgado) !important; 
 }
 
-.salgados-active .label-menu {
+.menu-salgado .label-menu {
   color: var(--fundo-roxo-salgado) !important;
+}
+  
+
+.menu-inactive .icones-menu {
+  background-color: var(--cinza-info) !important; /  
+}
+
+.menu-inactive .label-menu {
+  color: var(--cinza-info) !important;   
 }
 
 

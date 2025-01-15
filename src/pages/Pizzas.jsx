@@ -72,4 +72,3 @@ function Pizzas() {
 
 export default Pizzas;
 
-
