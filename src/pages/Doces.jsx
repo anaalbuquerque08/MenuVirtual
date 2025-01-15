@@ -6,7 +6,7 @@ function Doces() {
   const docesInfo = {
     title: "Doces de Festa",
     description: "Nossos doces são feitos com ótimos ingredientes e preparados com todo o carinho, garantindo sabor e qualidade. Perfeitos para aniversários, eventos especiais ou  simplesmente para adoçar o seu dia!",
-    imgHeader: "public/images/doce-header.png",
+    imgHeader: "/images/doce-header.png",
   };  
   const buttonColors = {
     buttonBackground: 'var(--botao-rosa-doce)',
@@ -14,35 +14,35 @@ function Doces() {
   };
   const produtos = [
     {
-      imagem: 'public/images/doce-brigadeiro.png',
+      imagem: '/images/doce-brigadeiro.png',
       titulo: 'Brigadeiro',
       ingredientes: 'Leite condensado,achocolatado e granulado.',
       quantidade: 'pedido mínimo : 20 unidades',
       valor: 1.5,
     },
     {
-      imagem: 'public/images/doce-beijinho.png',
+      imagem: '/images/doce-beijinho.png',
       titulo: 'Beijinho',
       ingredientes: 'Leite condensado, coco ralado, cravo e açúcar.',
       quantidade: 'pedido mínimo : 20 unidades',
       valor: 1.5,
     },
     { 
-      imagem: 'public/images/doce-moranguinho.png',
+      imagem: '/images/doce-moranguinho.png',
       titulo: 'Moranginho',
       ingredientes: 'Leite condensado, gelatina de morango e açúcar.',
       quantidade: 'pedido mínimo : 20 unidades',
       valor: 1.5,
     },
     {
-      imagem: 'public/images/doce-beijinho.png',
+      imagem: '/images/doce-beijinho.png',
       titulo: 'Beijinho',
       ingredientes: 'Leite condensado, coco ralado, cravo e açúcar.',
       quantidade: 'pedido mínimo : 20 unidades',
       valor: 1.5,
     },
     { 
-      imagem: 'public/images/doce-moranguinho.png',
+      imagem: '/images/doce-moranguinho.png',
       titulo: 'Moranginho',
       ingredientes: 'Leite condensado, gelatina de morango e açúcar.',
       quantidade: 'pedido mínimo : 20 unidades',

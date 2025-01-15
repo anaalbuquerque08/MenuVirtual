@@ -6,7 +6,7 @@ function Pizzas() {
   const docesInfo = {
     title: "Pizzas",
     description: "Delicie-se com nossas pizzas brotinhos, perfeitas para quem ama qualidade em tamanho individual. Preparadas com massas fresquinhas, cobertas com ingredientes selecionados. Elas combinam praticidade com sabor irresistível.",
-    imgHeader: "public/images/pizza-header.png",
+    imgHeader: "/images/pizza-header.png",
   };
 
 
@@ -17,21 +17,21 @@ function Pizzas() {
 
   const produtos = [
     {
-      imagem: 'public/images/pizza1.png',
+      imagem: '/images/pizza1.png',
       titulo: 'Mini Pizza',
       ingredientes: 'calabresa, mista, marguerita, queijo e frango catupiry.',
       quantidade: 'kit com 36 unidades',
       valor: 35.5,
     },
     {
-      imagem: 'public/images/pizza2.png',
+      imagem: '/images/pizza2.png',
       titulo: 'Pizza Brotinho',
       ingredientes: 'calabresa, mista, marguerita, queijo e frango catupiry.',
       quantidade: 'kit com 10 unidades',
       valor: 45.5,
     },
     { 
-      imagem: 'public/images/pizza3.png',
+      imagem: '/images/pizza3.png',
       titulo: 'Pizza Grande',
       ingredientes: 'calabresa, mista, marguerita, queijo e frango catupiry.',
       quantidade: '1 unidade.',
