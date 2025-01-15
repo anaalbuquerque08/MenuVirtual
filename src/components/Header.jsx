@@ -7,7 +7,7 @@ function Header({ title, description, imgHeader, imgHeaderStyles, buttonColors }
     <div className="Header">
       <div className="Header-image-container">
         <img
-          src="public/images/logo.png"
+          src="/images/logo.png"
           alt="logo-tudo-gostosinho"
           className="Header-logo"
         />
