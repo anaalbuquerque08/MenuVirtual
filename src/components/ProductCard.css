@@ -60,13 +60,13 @@
     z-index: 3;
     background-color:var(--fundo);
     top: 8px;
-    left: 8px; 
+    left: 10px; 
   }
 
 
   .product-card-price {   
-    top: -8px;
-    left: -8px; 
+    top: -9px;
+    left: -10px; 
     width: 80px;
     height: 30px; 
     display: flex;  

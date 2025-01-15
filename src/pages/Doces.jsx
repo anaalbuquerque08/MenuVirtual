@@ -79,5 +79,3 @@ function Doces() {
 }
 
 export default Doces;
-
-

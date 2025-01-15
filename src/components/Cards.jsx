@@ -26,3 +26,4 @@ function Cards({ produtos, tituloCor, precoBackground , tipos  }) {
 export default Cards;
 
   
+  

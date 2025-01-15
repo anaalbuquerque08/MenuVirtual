@@ -1,5 +1,4 @@
-.button {
-    background-color: var(--botao-rosa-doce);   
+.button { 
     color: var(--branco);  
     padding: 9px 20px;  
     width: 70%;
@@ -15,8 +14,4 @@
     margin-top: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
   }
-  
-  .button:hover {
-    background-color: var(--botao-rosa-doce-hover);   
-  }
-  
+   
